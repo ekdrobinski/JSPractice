@@ -61,7 +61,7 @@ function playGame(playerObjectOne, playerObjectTwo, playUntil) {
     }
 
 
-    //anounces who wins
+    //anounces who wins when either player2wins or player1wins reaches the playuntil amount. after the while loop is done. the while loop is only exited once the playUntil number is reached by one of the players, so this only checks who got the wins
     if (player1Wins === playUntil) {
         return playerObjectOne;
     } else {
